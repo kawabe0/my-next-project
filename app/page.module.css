@@ -46,7 +46,13 @@
   font-size: 1.5rem;
 }
 
-.list {
+.newsLink {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+}
+
+/*.list {
   border-bottom: 1px solid var(--color-border-light);
 }
 .list:last-child {
@@ -92,7 +98,7 @@
   gap: 8px;
   margin: 0.8rem 0;
   font-size: 1rem;
-}
+}*/
 
 @media (max-width: 1000px) {
   .news {
@@ -131,5 +137,11 @@
   .news {
     width: calc(100% - 32px);
     padding: 16px 24px;
+  }
+  .newsLink {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 16px;
   }
 }
